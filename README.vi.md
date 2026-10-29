@@ -30,9 +30,9 @@ Số 80,9% / 68,9% trong bản giới thiệu ban đầu không được đưa v
 
 ## GitHub Pages
 
-Workflow `.github/workflows/pages.yml` triển khai thư mục `docs` khi nội dung thay đổi trên `main`.
+Workflow `.github/workflows/pages.yml` đóng gói trang chuyển hướng ở gốc và nội dung trong `docs/`. Cả URL gốc lẫn `/docs/index.html` sử dụng cùng một nguồn giao diện trong `docs/`. Tham số truy vấn và liên kết mục được giữ lại khi chuyển hướng bằng JavaScript.
 
-Nếu Pages chưa được bật: **Settings → Pages → Build and deployment → Source: GitHub Actions**, sau đó chạy workflow “Trang mô phỏng DeFM tiếng Việt”. Có thể dùng phương án **Deploy from a branch → main → /docs** nếu không dùng Actions.
+Nếu Pages chưa được bật: **Settings → Pages → Build and deployment → Source: GitHub Actions**, sau đó chạy workflow “Trang mô phỏng DeFM tiếng Việt”. Có thể dùng phương án **Deploy from a branch → main → /(root)** nếu không dùng Actions.
 
 Đường dẫn dự kiến sau khi triển khai thành công: https://xulytiengviet.github.io/Depth-Foundation-Model/
 
