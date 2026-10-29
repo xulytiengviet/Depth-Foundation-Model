@@ -1,3 +1,6 @@
+> 🇻🇳 **[Trang mô phỏng tiếng Việt](docs/index.html)** · **[Hướng dẫn tiếng Việt và GitHub Pages](README.vi.md)**
+> Bốn cảnh Robot / Drone / Xe tự hành / WebGIS, mô phỏng hình học chạy ngay trong trình duyệt.
+
 # DeFM: Learning Foundation Representations from Depth for Robotics
 
 <div align="center">
